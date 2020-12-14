@@ -1,0 +1,6 @@
+{
+  "Define": {
+    "AddNotesState": "ADD_NOTES",
+    "AddAbout": "ADD_ABOUT_STATE"
+  }
+}

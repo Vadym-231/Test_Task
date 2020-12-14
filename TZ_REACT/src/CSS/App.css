@@ -1,0 +1,82 @@
+.menuInterfaceTextBlock {
+  padding: 10px;
+  border-radius: 41%;
+}
+.addButton{
+  display: inline-block;
+  float: left;
+  border-radius: 36%;
+  padding: 1%;
+  /* vertical-align: middle; */
+  /* margin: 2rem; */
+  margin-top: 12rem;
+  /* margin-bottom: 2rem; */
+  width: 29%;
+  height: 10rem;
+}
+.content_input{
+  height: 20rem;
+}
+.Hello{
+  width: 350px;
+  display: inline-block;
+}
+.menuNavigateBlock {
+  padding: 20px;
+  text-align: center;
+  background: cornflowerblue;
+}
+.linkNone {
+  text-decoration: none;
+  color: lightskyblue;
+}
+.pdf{
+  text-align: center;
+}
+.canvas_pdf{
+  height: auto;
+}
+.footer_container{
+  width: 100%;
+  background-color: blueviolet;
+}
+.footer_link{
+
+}
+#footer{
+  height: 50px;
+  margin-top: -50px;
+}
+.text-box{
+  padding: 45px;
+
+}
+.note{
+   float: left;
+  width: 25%;
+   margin: 2%;
+ }
+#root{
+  min-height: 100%;
+}
+@media only screen and (max-width: 1000px) {
+  .addButton{
+    display: inline-block;
+    float: left;
+    border-radius: 36%;
+    padding: 1%;
+    /* vertical-align: middle; */
+    /* margin: 2rem; */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 10rem;
+  }
+  .note{
+    float: left;
+   width: 100%;
+  }
+  .text-box{
+    padding: 0;
+  }
+}

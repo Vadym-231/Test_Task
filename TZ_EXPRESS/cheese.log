@@ -1,0 +1,38 @@
+[2020-12-12T13:42:36.324] [ERROR] cheese - TypeError: model.find(...).removeOne is not a function
+    at Mongo.deleteById (C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\src\Mongo\MongoClass.js:28:37)
+    at C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\routes\api.js:69:26
+    at Layer.handle [as handle_request] (C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\index.js:284:7
+[2020-12-12T13:43:05.367] [ERROR] cheese - TypeError: model.find(...).removeOne is not a function
+    at Mongo.deleteById (C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\src\Mongo\MongoClass.js:28:37)
+    at C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\routes\api.js:69:26
+    at Layer.handle [as handle_request] (C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\express\lib\router\index.js:284:7
+[2020-12-12T14:29:07.886] [ERROR] cheese - MongooseError: Operation `notes.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\Вадим\WebstormProjects\TZ_EXPRESS\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:184:20)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)

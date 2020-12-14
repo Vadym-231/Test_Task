@@ -1,0 +1,12 @@
+{
+  "Host": "localhost",
+  "Port": "27017",
+  "DataBaseName": "AnyData",
+  "ConnectUrl": "mongodb+srv://Admin:akijpo12lkspkpkKKHG23@cluster0.px065.mongodb.net/AnyData?retryWrites=true&w=majority",
+  "Tables": {
+    "Projects": "projects",
+    "Users": "users",
+    "About": "about",
+    "HelloPage": "start_page"
+  }
+}
